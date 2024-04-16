@@ -173,9 +173,9 @@ def parse_arguments():
     return parser.parse_args()
 
 def print_banner(url):
-    print("\n\t\tWelcome to Digital Pathfinder - Your Guide to the Digital Frontier\n")
-    print("Version: ", Colors.OKBLUE + "2.0.0" + Colors.ENDC)
-    print("Creator: ", Colors.OKGREEN + "@yourdigitalguide" + Colors.ENDC)
+    print("\n\t\tWelcome to Exer - Your Vuln Scanner\n")
+    print("Version: ", Colors.OKBLUE + "0.1.0" + Colors.ENDC)
+    print("Creator: ", Colors.OKGREEN + "@Zierax" + Colors.ENDC)
     print("Starting exploration at:", Colors.OKBLUE + url + Colors.ENDC + "\n")
 
 if __name__ == '__main__':
